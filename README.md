@@ -2,6 +2,8 @@
 
 The TELEXb (TXb) is a 2HP powered bus board for the i2c ecosystem that also enables the connection of external devices using the two 3.5mm stereo jacks at the top and the bottom of the module. These jacks can be used for connection to the 16n FaderBank, TXb that are in disconnected rack rows, or to fiendishly wonderful Frankenstein machines of your own creation.
 
+<img src="https://cdn.shopify.com/s/files/1/1856/2693/products/TXb_front-top_1024x1024@2x.jpg?v=1549508398" alt="TXn" width="600"/>
+
 ## High-Level i2c Tips
 
 There are some key things to keep in mind with the TXb (and i2c busses in general):
@@ -29,17 +31,17 @@ Want more help understanding what i2c can and can't do and how to use it in your
 	* ```TXb Stencil.svg``` - the solder paste stencil for laser cutting
 	
 * **board**
-	* ```gerbers``` - the gerbers files (and Eagle files) for the top and bottom boards
-	* ```images``` - image rederings of the boards
-	* ```TXb_v1.2.brd/sch``` - the master Eagle file for the TXb
+	* ```gerbers``` - the gerbers files (and Eagle files) for the PCB
+	* ```images``` - image rederings of the PCB
+	* ```TELEXb_v1.2.brd/sch``` - the master Eagle file for the TXb
 	
 * **extras**
 	* ```instructions.docx``` - the instructions delivered with the pre-built module
-	* ```TXb_mix_diagram.ai/svg``` - a digram of the module's mix behavior (used in the instructions file)
 	
 * **panel**
 	* ```metalphoto``` - the individual files used for the creation of the metalphoto panel in the retail version
 	* ```TXb.ai/svg``` - the panel files
+	* ```TXb_lasercut.svg``` - the file used for cutting prototype panels out of acrylic
 	* ```TXb_lg.png``` - a big version of the panel
 	* ```TXb_mp.zip``` - the archive sent for fabrication
 	* ```TXb_sm.png``` - a small photo of the panel
